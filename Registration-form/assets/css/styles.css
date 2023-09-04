@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+.body {
+    background-color: #E7ECFF;
+    font-family: 'Comfortaa', Courier, monospace;
+    font-size: 2.5vh
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 50px auto;
+}
+
+.form {
+    background-color: #B5F2EA;
+    padding: 50px 100px;
+    max-width: 400px;
+}
+
+.h1 {
+    color: hwb(222 31% 62%);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-container {
+    max-width: 100%;
+}
+
+.input {
+    min-width: 100%;
+    padding: 10px;
+    border: 2px solid #b9beba;
+    border-radius: 0.5em;
+    background-color: #F6FFF8;
+    margin-bottom: 10px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0px 3px 6px 0px #7f8782;
+}
+
+.invalid {
+    border: 2px solid #ff5b41;
+    background-color: #fff8f6;
+    box-shadow: 0px 3px 6px 0px #d96d6d;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px;
+    justify-self: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #FED6BC;
+}
+
+.button-activ:hover {
+    background-color: #3e8e41;
+}
+
+.errors {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        margin: 0px;
+    }
+
+    .form {
+        padding: 10px 20px;
+    }
+
+    .h1 {
+        margin-bottom: 15px;
+    }
+
+    .label {
+        margin-bottom: 5px;
+    }
+
+    .input-container {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .input {
+        min-width: 90%;
+        padding: 10px;
+        border: 2px solid #b9beba;
+        border-radius: 0.5em;
+        background-color: #F6FFF8;
+        margin-bottom: 5px;
+    }
+
+    .errors {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+}

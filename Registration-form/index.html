@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Тестовое задание для 23 программиста</title>
+</head>
+
+<body class="body">
+    <div class="container" id="container">
+        <form class="form" autocomplete="on" id="form">
+            <h1 class="h1" id="h1">Форма регистрации:</h1>
+            <div class="input-container" id="input-container-first-name">
+                <label id="lable-first-name" for="first-name" class="lable">Введите Имя:</label>
+                <input class="input" type="text" name="first-name" id="first-name">
+                <div id="first-name-errors" class="errors"></div>
+            </div>
+            <div class="input-container" id="input-container-second-name">
+                <label id="lable-second-name" for="second-name" class="lable">Введите Фамилию:</label>
+                <input class="input" type="text" name="second-name" id="second-name">
+                <div id="second-name-errors" class="errors"></div>
+            </div>
+            <div class="input-container" id="input-container-email">
+                <label id="lable-email" for="email" class="lable">Введите email:</label>
+                <input class="input" type="email" name="email" id="email">
+                <div id="email-errors" class="errors"></div>
+            </div>
+            <div class="input-container" id="input-container-date">
+                <label id="lable-date" for="date" class="lable">Введите дату рождения:</label>
+                <input class="input" type="date" name="date" id="date">
+                <div id="date-errors" class="errors"></div>
+            </div>
+            <div class="input-container" id="input-container-password">
+                <label id="lable-password" for="password" class="lable">Введите пароль:</label>
+                <input class="input" type="password" name="password" id="password">
+                <div id="password-errors" class="errors"></div>
+            </div>
+            <div class="input-container" id="input-container-password-checked">
+                <label id="lable-password-checked" for="password-checked" class="lable">Повторите пароль:</label>
+                <input class="input" type="password" name="password-checked" id="password-checked">
+                <div id="password-checked-errors" class="errors"></div>
+            </div>
+
+            <div class="button-container" id="button-container">
+                <button id="button" class="button" type="submit" disabled>Отправить</button>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
